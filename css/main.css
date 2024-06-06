@@ -5,6 +5,7 @@ main {
   flex-direction: column;
   gap: 5px;
   margin-bottom: 120px;
+  color: white;
 }
 .board-row {
   display: flex;
@@ -19,4 +20,11 @@ main {
   height: 50px;
   width: 50px;
   border: 2px solid gray;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.timer {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
 }

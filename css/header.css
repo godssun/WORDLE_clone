@@ -4,6 +4,8 @@
   align-items: center;
   height: 110px;
   margin-bottom: 50px;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 .menu-bar__column {
@@ -14,7 +16,8 @@
   display: flex;
   justify-content: center;
   width: 36px;
-  height: 30px;
+  height: 36px;
+  filter: invert(100%) sepia(93%) saturate(205%) hue-rotate(283deg) brightness(119%) contrast(106%);
 }
 .icons {
   display: flex;
@@ -23,6 +26,7 @@
   width: 30px;
   height: 30px;
   margin-right: 35px;
+  filter: invert(100%) sepia(93%) saturate(205%) hue-rotate(283deg) brightness(119%) contrast(106%);
 }
 
 .icons img {
